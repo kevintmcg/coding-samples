@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <head>
+<meta charset="UTF-8">
+<meta name="author" content="Kevin McGuinness">
+<!-- Website for a fictional restaurant. Samples of HTML and CSS coding.
+        This is the "Menus" (and "Drinks") page -->
 <style>
+/* Style for logo */
   div.logo {
     float:left;
     padding-right:10px;
     clear:right;
     }
+/* Style for top navigational bar */
   div.topMenu {
     float:left;
     padding-right:10px;
     font-weight:bold;
     background-color: tomato;
   }
+/* Style for secondary navigational bar, which is specific to "Menus" page */
   div.lunchEtcLinks {
     float:left;
     padding-right:10px;
     font-weight:bold;
     background-color: lightgreen;
   }
+/* Style for footer */
     div.foot {
     text-align:center;
     font-family:cursive;
@@ -26,14 +34,16 @@
 </head>
 <body>
 <header>
+  <!-- Placement of happy hamburger logo -->
 <div class="logo">
 <img src="burger.jpg" height="100px" width="100px";>
 </div>
 <div class="logo">
-<h1>Welcome to Comfort Foods</h1>
+<h1>Comfort Foods</h1>
 </div>
 <nav>
 <br><br><br><br><br>
+  <!-- Placement of top navigational bar -->
 <div class="topMenu">
   <a href="index.html">Home</a>
 </div>
@@ -52,14 +62,14 @@
 </nav>
 </header>
 <br><br><br><br><br>
-
+  <!-- Placement of secondary navigational bar, which is specific to this page -->
 <article>
-  <h1>Menus</h1>
+<h1 align=center>Menus</h1>
 <div class="lunchEtcLinks">
-  <a href="menus.html#lunches">Lunch</a>
+<a href="menus.html#lunches">Lunches</a>
 </div>
 <div class="lunchEtcLinks">
-<a href="menus.html#dinners">Dinner</a>
+<a href="menus.html#dinners">Dinners</a>
 </div>
 <div class="lunchEtcLinks">
 <a href="menus.html#drinks">Drinks</a>
@@ -68,8 +78,9 @@
 <a href="menus.html#desserts">Desserts</a>
 </div>
 <section>
-<br>
-<h2 id="lunches">Lunch</h2>
+<br><br>
+  <!-- Anchor link for Lunches section of menu -->
+<h3 id="lunches">Lunches</h3>
 <p>Hamburgers - $10</p>
 <p>Hot Dogs - $8</p>
 <p>Chicken Fingers - $6</p>
@@ -83,7 +94,8 @@
 </section>
 <section>
 <br>
-<h2 id="dinners">Dinners</h2>
+  <!-- Anchor link for Dinners section of menu -->
+<h3 id="dinners">Dinners</h3>
 <p>Hamburgers - $15</p>
 <p>Hot Dogs - $13</p>
 <p>Chicken Fingers - $11</p>
@@ -97,7 +109,8 @@
 </section>
 <section>
 <br>
-<h2 id="drinks">Drinks</h2>  
+  <!-- Anchor link for Drinks section of menu, as well as for top navigational bar -->
+<h3 id="drinks">Drinks</h3>
 <p>Blue Drink #1 - $10</p>
 <p>Blue Drink #2 - $8</p>
 <p>Blue Drink #3 - $6</p>
@@ -111,7 +124,8 @@
 </section>
 <section>
 <br>
-<h2 id="desserts">Desserts</h2>  
+  <!-- Anchor link for Desserts section of menu -->
+<h3 id="desserts">Desserts</h3>
 <p>Vanilla Sundae - $10</p>
 <p>Extra Chocolate Sundae - $8</p>
 <p>Special Strawberry Sundae - $6</p>
@@ -119,12 +133,12 @@
 <p>Multi-Sherbert Explosion - $5</p>
 <p>Fruit Surprise - $12</p>
 </section>
-<section>
 <br><br><br><br><br><br>
+  <!-- Footer information -->
 <footer>
 <div class="foot">
-  Copyright 2017
-  </div>
+Copyright 2017
+</div>
 </footer>
 </body>
 </html>
