@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Starling Publications</title>
+<meta charset="utf-8">
+<meta name="author" content="Kevin McGuinness">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap style and script links -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+/* Modifies original gray background color of jumbotron heading */
+.jumbotron {
+  background-color:lightblue;
+}
+/* Modifies original black background color of navbar */
+.navbar {
+  background-color:midnightblue;
+}
+</style>
+</head>
+<body>
+<!-- Page header -->
+<div class="jumbotron">
+<h1 align=center>Starling Publications</h1>
+<p align=center>For the discriminating collector and the dedicated fan</p>
+</div>
+<!-- Top navigational bar menu -->
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<div class="navbar-brand"><img src="starlogo.png">
+</div>
+<ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="nightblind.html">Spotlight Book 1</a></li>
+<li><a href="oursea.html">Spotlight Book 2</a></li>
+<li><a href="midnight.html">Spotlight Book 3</a></li>
+</ul>
+</div>
+</nav>
+<!-- Order form code for "Mare Nostrum (Our Sea)" book -->
+<div class="container">
+<!-- Form/book title -->
+<h2 align=center>Order Form - Mare Nostrum (Our Sea)</h2><br><br>
+<form class="form-horizontal" action="/action_page.php">
+<!-- Prepopulated book catalog order number -->
+<div class="form-group">
+<div class="col-lg-10">
+<label class="control-label col-sm-2" for="text">Catalog Order Number:</label>
+<div class="col-sm-10">
+<p class="form-control-static">SSF051001G</p>
+</div>
+</div>
+</div>
+<!-- Input space for customer name -->
+<div class="form-group">
+<div class="col-lg-10">
+<label class="control-label col-sm-2" for="name">Name:</label>
+<div class="col-sm-10">
+<input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+</div>
+</div>
+</div>
+<!-- Input space for customer address -->
+<div class="form-group">
+<div class="col-lg-10">
+<label class="control-label col-sm-2" for="address">Address:</label>
+<div class="col-sm-10">
+<input type="text" class="form-control" id="address" placeholder="Enter address" name="address">
+</div>
+</div>
+</div>
+<!-- Input space for customer credit card number -->
+<div class="form-group">
+<div class="col-lg-10">
+<label class="control-label col-sm-2" for="credit">Credit Card Number:</label>
+<div class="col-sm-10">
+<input type="text" class="form-control" id="credit" placeholder="Enter credit card number" name="credit">
+</div>
+</div>
+</div>
+<!-- Code for Submit button -->
+<br>
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+<button type="submit" class="btn btn-success">Submit</button>
+</div>
+</div>
+</form>
+</div>
