@@ -1,0 +1,1 @@
+This project uses basic HTML, a variation of HTML called Bootstrap and CSS style coding to display a website for a small publisher named Starling Publications. It uses features, such as a navigational bar and a carousel, which allow users to access book information in multiple ways.
